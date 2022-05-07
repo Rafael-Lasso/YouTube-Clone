@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+.content-video{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+
+    max-width: 1570px;
+    padding-top: 8vh;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.video:hover{
+    cursor: pointer;
+}
+
+.body-video img{
+    width: 363px;
+    height: 203px;
+    margin: 10px;
+}
+.fotoDoCanal{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-right: 16px;
+}
+
+.footer-video{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomVideo{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.bottomVideo:nth-child(2){
+    margin: 3px 0px;
+}
+
+.bottomVideo h1{
+    font-size: 19px;
+    margin-bottom: 3px;
+}
+
+.bottomVideo h2{
+    font-size: 16px;
+}
+
+.info-video{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+.info-video time{
+    margin: 0px 28px;
+}

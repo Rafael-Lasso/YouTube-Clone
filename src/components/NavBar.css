@@ -1,0 +1,125 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    overflow-y: auto;
+    
+    top: 60px;
+    left: 0;
+    position: fixed;
+    
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: #212121;
+    width: 311px;
+    height: 100vh;
+    z-index: 2;
+}
+
+.container {
+    position: absolute;
+}
+
+.container-options {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: space-around;
+}
+
+.container-last-options {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 0;
+    margin-left: 28px;
+    justify-content: space-around;
+}
+
+.container-last-options ul li{
+    font-size: 13px;
+    color: var(--text-gray2);
+}
+
+.container-last-options ul li:hover{
+    cursor: pointer;
+}
+
+.navbar ul li {
+    left: 0;
+    list-style: none;
+    margin: auto 0px;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.container-options strong span {
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-left: 20px;
+    color: var(--text-gray);
+}
+
+.container-options ul li {
+    display: flex;
+    font-size: 0.8rem;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container-options ul li:hover {
+    display: flex;
+    position: relative;
+
+    padding: 10px;
+    font-size: 0.8rem;
+    align-items: center;
+    cursor: pointer;
+
+    left: 0;
+    background-color: var(--secondary);
+}
+
+ion-icon{
+    display: flex;
+
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container-options hr {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 40px;
+    width: 311px;
+    height: 2px;
+    background-color: var(--secondary);
+    border: 1px solid var(--secondary);
+}
+
+li i {
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ftCanal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: var(--secondary);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}

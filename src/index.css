@@ -1,13 +1,55 @@
-body {
+/*
+          Estilização Global
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=IBM+Plex+Sans+Arabic:wght@300&family=Inspiration&family=Montserrat:wght@300&family=Poppins:wght@200;400&family=Roboto:wght@300;400&display=swap');
+
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  overflow-x: hidden;
+}
+/* config Scrolling Page */
+
+::-webkit-scrollbar{background-color: var(--youtube-black);
+   width: 7px;
+   margin-right: 12px;
+}
+
+::-webkit-scrollbar-thumb{background-color: #b5b5b5; 
+  width: 243px;   
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;}
+
+/* End config Scrolling Page */
+
+body {
+  height: 200vh;  
+}
+
+:root {
+  --youtube-black: #181818;
+  --header: #303030
+  --nav: #717171;
+  --gray: #717171;
+  --text-gray: #717171;
+  --text-gray2:rgb(169, 169, 169);
+  --yt-black-2: #212121
+  --main-line:#ffffff;
+  --sub-line:#b09999;
+  --secondary: #303030;
+}
+
+*, input, button{
+  border: none;
+  outline: none;
+  color: white;
 }
